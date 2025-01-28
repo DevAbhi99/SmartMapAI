@@ -1,0 +1,133 @@
+.mainpage{
+    display: flex;
+    flex-direction: row;
+}
+.signup_title{
+    display:flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top:100px;
+}
+#signup_title1{
+    font-size: 30px;
+    font-weight: 500;
+    color:rgb(14, 186, 174);
+}
+#signup_title2{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.name_fields{
+    display:flex;
+    flex-direction: row;
+    margin-top:40px;
+    margin-left:300px;
+}
+#inp_fname{
+    height:30px;
+    border:0.2px solid rgb(159, 158, 158);
+    border-radius: 15px;
+    color:black;
+    box-shadow:3px 3px silver;
+}
+#inp_lname{
+    height:30px;
+    border:0.2px solid rgb(159, 158, 158);
+    border-radius: 15px;
+    color:black;
+    box-shadow:3px 3px silver;
+}
+#inp_email{
+    height:30px;
+    border:0.2px solid rgb(159, 158, 158);
+    border-radius: 15px;
+    color:black;
+    box-shadow:3px 3px silver;
+    margin-left: 300px;
+    margin-top:27px;
+    width:360px;
+}
+#inp_ph{
+    height:30px;
+    border:0.2px solid rgb(159, 158, 158);
+    border-radius: 15px;
+    color:black;
+    box-shadow:3px 3px silver;
+    margin-left: 300px;
+    margin-top:27px;
+    width:360px;
+}
+#inp_passw{
+    height:30px;
+    border:0.2px solid rgb(159, 158, 158);
+    border-radius: 15px;
+    color:black;
+    box-shadow:3px 3px silver;
+    margin-left: 300px;
+    margin-top:27px;
+    width:360px;
+}
+#btnsignup{
+    border-radius: 15px;
+    color:black;
+    box-shadow:3px 3px silver;
+    margin-left: 328px;
+    margin-top:44px;
+    width:300px;
+    height:40px;
+    border:none;
+    background-color:rgb(14, 186, 174);
+    color:white;
+}
+#lname{
+    margin-left: 25px;
+   
+}
+.ortext{
+    margin-top:30px;
+    margin-left:470px;
+    font-weight: 500;
+    color: grey;
+}
+#btnsignupgoogle{
+    border-radius: 15px;
+    color:black;
+    box-shadow:3px 3px silver;
+    margin-left: 350px;
+    margin-top:38px;
+    width:250px;
+    height:40px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 7px;
+}
+#signup_googletext{
+    margin-left: 15px;
+    margin-top: 7px;
+}
+#googleicon{
+    font-size: 25px;
+    margin-left: 35px;
+}
+.alreadymaintext{
+    font-weight: 500;
+    margin-top:16px;
+    margin-left:350px;
+}
+#alreadytext{
+color:rgb(103, 102, 102);
+}
+#logtext{
+    margin-left: 1px;
+    color:rgb(14, 186, 174) ;
+    font-size: 16px;
+    border:none;
+}
+#mapicon_image{
+    height:400px;
+    width:400px;
+    margin-left: 470px;
+    border-radius: 200px;
+}

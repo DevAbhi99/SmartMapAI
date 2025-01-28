@@ -1,0 +1,18 @@
+#login_title2{
+    margin-left: 14px;
+    margin-top:10px;
+}
+.login_form{
+     margin-top:30px;
+}
+.loginalreadymaintext{
+    margin-left:360px;
+    margin-top:30px;
+    font-weight: 500;
+}
+#logtext{
+    margin-left: 1px;
+    color:rgb(14, 186, 174) ;
+    font-size: 16px;
+    border:none;
+}
