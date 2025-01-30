@@ -1,8 +1,39 @@
-import React from "react";
+import React, {useState} from "react";
 import { FcGoogle } from "react-icons/fc";
+import axios from "axios";
 import './Login.css';
+import { useNavigate } from "react-router-dom";
+
 
 const Login=()=>{
+
+const [email,setEmail]=useState("");
+const [password,setPassword]=useState("");
+
+const navigate=useNavigate();
+
+const handleSubmit=()=>{
+
+if(!email||!password){
+    alert("Fill in details");
+}
+else{
+    navigate("/main");
+}
+
+const userData={email:email, password:password};
+
+axios.post('http://localhost:4000/login',userData)
+.then(response=>{
+    console.log(response.data);
+})
+.catch(error=>{
+    console.log(`Error occurred due to ${error}`);
+})
+
+
+}
+
 
 return (
     <>
@@ -17,13 +48,13 @@ return (
     
                 <div className="login_form">
                     <div className="email_field">
-                        <span id="emailfield"><input type="text" id="inp_email" placeholder="Email"></input></span>
+                        <span id="emailfield"><input type="text" value={email} onChange={(e)=>{setEmail(e.target.value)}} id="inp_email" placeholder="Email"></input></span>
                     </div>
                     <div className="password_field">
-                        <span id="passwordfield"><input type="password" id="inp_passw" placeholder="password"></input></span>
+                        <span id="passwordfield"><input type="password" value={password} onChange={(e)=>{setPassword(e.target.value)}} id="inp_passw" placeholder="password"></input></span>
                     </div>
                     <div className="signup_btn">
-                        <button id="btnsignup">Log In</button>
+                        <button id="btnsignup" onClick={handleSubmit} >Log In</button>
                     </div>
     
                     <div className="ortext">Or</div>
