@@ -1,3 +1,18 @@
+.header{
+    background-color:rgb(14, 186, 174);
+    height:40px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+#back_arrow{
+    margin-top:20px;
+}
+#btn_backarrow{
+    background-color:rgb(14, 186, 174);
+    border:none;
+    color:yellow;
+    font-size: 25px;
+}
 .from{
 margin-left: 110px;
 margin-top:20px;
@@ -34,6 +49,8 @@ margin-top:20px;
     height:620px;
     border-radius: 20px;
     margin-left: 10px;
+    margin-top:20px;
+    background-color: white;
 }
 .train_container{
     display: flex;
