@@ -25,7 +25,7 @@ const Main = () => {
   return (
     <>
       {/* Google Map Component */}
-      <LoadScript googleMapsApiKey="AIzaSyBo-mXQolZZnHe2jxg1FDm8m-ViYP9_AaY">
+      <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
