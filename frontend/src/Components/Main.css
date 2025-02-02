@@ -1,0 +1,163 @@
+.from{
+margin-left: 110px;
+margin-top:20px;
+}
+#from_field{
+    width:240px;
+    height:25px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.to{
+    margin-left: 110px;
+}
+#to_field{
+    width:240px;
+    margin-top:20px;
+    height:25px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.thirdcolumn{
+    display:flex;
+    flex-direction: row;
+    margin-left: 110px;
+    margin-top:30px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    border:1px solid black;
+    width:500px;
+    height:620px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.train_container{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding-left: 80px;
+    width:300px;
+    margin-top:30px;
+    margin-left:60px;
+    height:110px;
+    border-radius: 20px;
+}
+.title_train{
+margin-left:90px;
+}
+#time_train{
+    margin-top:15px;
+}
+#km_train{
+  margin-left: 60px;
+  margin-top:15px;  
+}
+#via_train{
+    margin-left: 60px;
+    margin-top:15px;
+}
+.go_train{
+    margin-left:75px;
+    margin-top: 10px;
+}
+.bus_container{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding-left: 80px;
+    width:300px;
+    margin-top:30px;
+    margin-left:60px;
+    height:110px;
+    border-radius: 20px;
+}
+.title_bus{
+    margin-left:90px;
+    }
+#time_bus{
+    margin-top:15px;
+}
+#km_bus{
+  margin-left: 60px;
+  margin-top:15px;  
+}
+#via_bus{
+    margin-left: 60px;
+    margin-top:15px;
+}
+.go_bus{
+    margin-left:75px;
+    margin-top: 10px;
+}
+.car_container{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding-left: 80px;
+    width:300px;
+    margin-top:30px;
+    margin-left:60px;
+    height:110px;
+    border-radius: 20px;
+}
+.title_car{
+    margin-left:90px;
+    }
+#time_car{
+    margin-top:15px;
+}
+#km_car{
+  margin-left: 60px;
+  margin-top:15px;  
+}
+#via_car{
+    margin-left: 60px;
+    margin-top:15px;
+}
+.go_car{
+    margin-left:75px;
+    margin-top: 10px;
+}
+#gobtn{
+    background-color: rgb(14, 186, 174);
+    color:white;
+    border:none;
+    width:60px;
+    border-radius:20px;
+    height: 28px;
+}
+#time_option{
+    width: 100px;
+    height:30px;
+    border-radius: 20px; 
+}
+#vehicle_option{
+width: 100px;
+height:30px;
+border-radius: 20px;
+}
+.vehicle{
+    margin-left: 20px;
+}
+#clock_icon{
+    margin-top:4px;
+}
+#car_icon{
+    margin-top:10px;
+}
+#time_option{
+    margin-left: 5px;
+}
+#vehicle_option{
+    margin-left: 5px;
+}
+#circle_icon{
+    margin-top:10px;
+}
+#location_icon{
+    margin-top:10px;
+}
